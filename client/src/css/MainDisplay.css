@@ -1,0 +1,30 @@
+.main-display {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.main-display p {
+  margin-bottom: 30px;
+}
+
+.game-log-choice {
+  display: flex;
+  justify-content: flex-end;
+  color: gray;
+  width: 100%;
+}
+
+.welcome-messages h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+
+.welcome-messages h2 {
+  font-weight: 450;
+  font-size: 30px;
+  letter-spacing: 5px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "echoes-of-the-crimson-keep",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "heroku-prebuild": "cd client && npm install && npm run build",
+    "start": "node server/src/server.js",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "cd server && npm install"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "node-gyp": "^11.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.1"
+  }
+}

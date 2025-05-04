@@ -1,0 +1,22 @@
+.action-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.action-list button {
+  color: white;
+  background: transparent;
+  border: 0.1mm solid gray;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.action-list button:hover {
+  background-color: gray;
+}
